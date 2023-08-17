@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="intro-container">
+        <div class="content-container">
+            <div class="blue-container">
+                <div class="text-container">
+                    <img src="Orto-Logo.png" alt="">
+                    <p class="sm">Os oceanos ocupam a maior parte do planeta. Mas você sabia que cerca de 13 milhões de
+                        toneladas de lixo plástico são despejados em suas águas, todos os anos? Sem mencionar a poluição
+                        dos rios… </p>
+                    <p class="sm">Conforme a Organização das Nações Unidas (ONU), cerca de 800 espécies que vivem em
+                        diferentes locais do planeta são afetadas por detritos marinhos - e 80% desses resíduos são
+                        formados por plásticos.</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <a id="transitionButton">continue a navegar</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const transitionButton = document.getElementById('transitionButton');
+            const textContainer = document.querySelector('.text-container');
+            const newTextContent = `
+        <img src="Orto-Logo.png" alt="">
+        <p class="sm">
+Não é novidade que a preservação da biodiversidade dos oceanos é de extrema importância, e que a sua possível destruição
+causaria imensos impactos à vida na terra. </p>
+        <p class="sm">Mas e aí? Você contribui para a preservação dos Oceanos? </p>
+        <p class="sm"> Responda as
+seguintes perguntas do Quiz e descubra o resultado!</p>
+    `;
+
+
+
+            transitionButton.addEventListener('click', function () {
+                textContainer.classList.remove('slide-down');
+                textContainer.classList.add('slide-up');
+
+
+                setTimeout(function () {
+                    textContainer.innerHTML = newTextContent;
+                    textContainer.classList.remove('slide-up');
+                    textContainer.classList.add('slide-down-from-top');
+
+                    transitionButton.textContent = "Começar o Quiz";
+                    transitionButton.href = "Question1.html"
+
+
+                }, 875);
+
+
+            });
+        });
+
+    </script>
+</body>
+
+</html>

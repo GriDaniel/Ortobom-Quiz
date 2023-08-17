@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url('Question1-img.png');
+    overflow-x: hidden;
+
+
+
+
+
+}
+
+
+.container .container-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.light-blue-container-one {
+    width: 50%;
+    height: 100%;
+    background-color: #00BAE2;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.upper-container {
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-container {
+    width: 31.10%;
+    height: 100%;
+    background-color: #0B1F50;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.blue-container img {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 10%;
+    width: 79.67%;
+    height: 7.12%;
+
+}
+
+.blue-container .lg {
+    font-family: Montserrat;
+    font-size: calc(7vw + 7vh);
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.text-container {
+    width: 48%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.container .text-container .lg {
+    font-family: Montserrat;
+    font-size: calc(1.2vh + 1.2vw);
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.container .text-container .sm {
+    font-family: Montserrat;
+    font-size: calc(0.9vw + 0.9vh);
+    font-weight: 400;
+    color: white;
+
+}
+
+.lower-container {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lower-container .lg {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: calc(1.18vh + 1.18vw);
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+
+
+}
+
+.container .button-container {
+    width: 85.3125%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    margin-top: 5%;
+}
+
+.button-box {
+    width: 32.2%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-box a {
+    font-family: Montserrat;
+    font-size: calc(2.5vw + 2.5vh);
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button-box:hover {
+    border: 7px solid white;
+}
+
+
+
+
+
+.light-blue-container-two {
+    width: 50%;
+    height: 100%;
+    background-color: #0E9FF1;
+    transform: translateX(100%);
+    flex-direction: column;
+
+}
+
+.light-blue-container-three {
+    width: 50%;
+    height: 100%;
+    background-color: #0B69D1;
+    transform: translateX(100%);
+}
+
+.light-blue-container-four {
+    width: 50%;
+    height: 100%;
+    background-color: #0B4586;
+    transform: translateX(100%);
+
+}
+
+.dark-blue-container {
+    width: 50%;
+    height: 100vh;
+    background-color: #0B1F50;
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.dark-blue-container .text-container img {
+    width: 41.99%;
+    height: 3.63%;
+}
+
+.dark-blue-container .text-container {
+    width: 59.54%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.dark-blue-container .text-container .sm {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: calc(0.9vh + 0.9vw);
+
+}
+
+.dark-blue-container .button-container {
+    width: 93.377%;
+    height: 5.80%;
+    border: 3px solid #E5E5E5;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dark-blue-container .button-container a {
+    font-family: Montserrat;
+    font-size: calc(0.9vh + 0.9vw);
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+

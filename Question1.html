@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Question1.css">
+    <link rel="stylesheet" href="Question1Queries.css">
+    <title>Question 1</title>
+    <style>
+        .slide-off {
+            transform: translateX(-300%);
+            transition: transform 1.75s ease;
+        }
+
+
+        .slide-in-right {
+            transform: translateX(0%);
+            transition: transform 0.25s ease;
+
+        }
+
+        .slide-off-two {
+            transform: translateX(-300%);
+            transition: transform 1.75s ease;
+        }
+
+        .slide-in-right-two {
+            transform: translateX(0%);
+            transition: transform 0.25s ease;
+
+        }
+
+        .slide-off-three {
+            transform: translateX(-300%);
+            transition: transform 1.75s ease;
+        }
+
+        .slide-in-right-three {
+            transform: translateX(0%);
+            transition: transform 0.25s ease;
+
+        }
+
+
+        .slide-off-good {
+            transform: translateX(-300%);
+            transition: transform 1.75s ease;
+        }
+
+        .slide-in-right-good {
+            transform: translateX(0%);
+            transition: transform 0.25s ease;
+
+        }
+
+        .slide-off-bad {
+            transform: translateX(-300%);
+            transition: transform 1.75s ease;
+        }
+
+        .slide-in-right-bad {
+            transform: translateX(0%);
+            transition: transform 0.25s ease;
+
+        }
+
+        @media (max-width: 920px) {
+            .container {
+                background-size: 100% 50%;
+                background-repeat: no-repeat;
+                align-items: flex-start;
+                background-position: center bottom;
+            }
+
+            .light-blue-container-one {
+                width: 100%;
+                height: 50%;
+            }
+
+            .light-blue-container-two {
+                width: 100%;
+                height: 50%;
+            }
+
+            .light-blue-container-three {
+                width: 100%;
+                height: 50%;
+            }
+
+            .light-blue-container-four {
+                width: 100%;
+                height: 50%;
+            }
+
+            .dark-blue-container {
+                width: 100%;
+                height: 50%;
+            }
+
+            .container .button-container {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="light-blue-container-one">
+            <div class="upper-container">
+                <div class="blue-container">
+                    <img src="Orto-Logo.png" alt="">
+                    <p class="lg">01</p>
+                </div>
+                <div class="text-container">
+                    <p class="lg">Se possível, evite material descartável</p>
+                    <p class="sm">O descarte incorreto de resíduos e embalagens acaba prejudicando a vida marinha — 80%
+                        dos materiais encontrados nos oceanos são provenientes dos plásticos (sobretudo sacolas e
+                        garrafas), segundo estudo publicado na revista científica Nature Sustainability. Para reduzir o
+                        uso desse material, é interessante optar por garrafas de água, canecas e copos reutilizáveis.
+                    </p>
+                </div>
+            </div>
+            <div class="lower-container">
+                <p class="lg">VOCÊ USA MATERIAIS REUTILIZÁVEIS?</p>
+                <div class="button-container">
+                    <div class="button-box slide-trigger good">
+                        <a href="">Sim</a>
+                    </div>
+                    <div class="button-box slide-trigger bad">
+                        <a href="">não</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-element-two light-blue-container-two" style="display: none;">
+            <div class="upper-container">
+                <div class="blue-container">
+                    <img src="Orto-Logo.png" alt="">
+                    <p class="lg">01</p>
+                </div>
+                <div class="text-container">
+                    <p class="lg">Realize o descarte apropriado dos materiais descartáveis</p>
+                    <p class="sm">Caso não seja possível evitar o uso de materiais descartáveis, como o plástico, jamais
+                        jogue nas ruas, praias, rios ou córregos. Atualmente, várias cidades possuem lixeiras de coleta
+                        seletiva nas ruas, estações de trem e metrô. Em casa, é possível separá-los dos materiais
+                        orgânicos, tirar o excesso de alimentos ou bebidas e levar para as cooperativas de reciclagem da
+                        sua cidade.
+                    </p>
+                </div>
+            </div>
+            <div class="lower-container">
+                <p class="lg">VOCÊ SEPARA O SEU LIXO EM CASA E NA RUA PARA RECICLAGEM?</p>
+                <div class="button-container">
+                    <div class="button-box slide-trigger-two good">
+                        <a href="">Sim</a>
+                    </div>
+                    <div class="button-box slide-trigger-two bad">
+                        <a href="">não</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-element-three light-blue-container-three" style="display: none;">
+            <div class="upper-container">
+                <div class="blue-container">
+                    <img src="Orto-Logo.png" alt="">
+                    <p class="lg">01</p>
+                </div>
+                <div class="text-container">
+                    <p class="lg">Conscientize seu ciclo social</p>
+                    <p class="sm">O caminho para mudança é a conscientização e a mobilização do maior número de pessoas,
+                        empresas e agentes públicos. Leia, se informe e mantenha-se atualizado sobre os perigos
+                        associados à poluição dos oceanos e às soluções para acabar com ela. Assim, é possível chamar
+                        atenção para um problema que é de todos, conscientizar, dialogar, e juntos conservar a
+                        biodiversidade marinha.
+                    </p>
+                </div>
+            </div>
+            <div class="lower-container">
+                <p class="lg">VOCÊ COSTUMA SE COMUNICAR NO SEU CICLO SOCIAL SOBRE A PRESERVAÇÃO DOS OCEANOS?</p>
+                <div class="button-container">
+                    <div class="button-box slide-trigger-three good">
+                        <a href="">Sim</a>
+                    </div>
+                    <div class="button-box slide-trigger-three bad">
+                        <a href="">não</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-element-four light-blue-container-four" style="display: none;">
+            <div class="upper-container">
+                <div class="blue-container">
+                    <img src="Orto-Logo.png" alt="">
+                    <p class="lg">01</p>
+                </div>
+                <div class="text-container">
+                    <p class="lg">Consuma marcas comprometidas com a vida marinha</p>
+                    <p class="sm">O avanço tecnológico atualmente possibilita que as empresas busquem reduzir a
+                        quantidade de plástico dos seus produtos e processos, e utilizem materiais recicláveis. Na hora
+                        de consumir, busque por marcas que sejam sustentáveis e comprometidas com a preservação da
+                        biodiversidade marinha.
+                    </p>
+                </div>
+            </div>
+            <div class="lower-container">
+                <p class="lg">VOCÊ SE ATENTA AO VIÉS SUSTENTÁVEL DAS MARCAS NO MOMENTO DA COMPRA?</p>
+                <div class="button-container">
+                    <div class="button-box slide-trigger-four good final">
+                        <a>Sim</a>
+                    </div>
+                    <div class="button-box slide-trigger-four bad final">
+                        <a>não</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-element-good dark-blue-container" style="display: none;">
+            <div class="text-container">
+                <img src="Orto-Logo.png" alt="">
+                <p class="sm">Parabéns! Você por meio de suas ações contribui ativamente para a preservação da vida
+                    marinha!
+                    O mundo todo agradece! <br><br>
+
+                    A Ortobom sempre fez a sua parte, e a mais recente novidade é o uso da tecnologia OCEANCARE, que
+                    consiste na transformação de garrafas pet com potencial de poluição dos oceanos em fios de
+                    matéria-prima
+                    sustentável, na confecção do colchão liberty</p>
+                <div class="button-container">
+                    <a href="">Conheça nosso produto</a>
+                </div>
+            </div>
+        </div>
+        <div class="new-element-bad dark-blue-container" style="display: none;">
+            <div class="text-container">
+                <img src="Orto-Logo.png" alt="">
+                <p class="sm">Busque melhorar… Todos podemos cada vez mais nos conscientizar e trabalhar para o bem
+                    maior, e à presevação da vida marinha é de suma importância para que isso se concretize. <br><br>
+
+                    A Ortobom sempre fez a sua parte, e a mais recente novidade é o uso da tecnologia OCEANCARE, que
+                    consiste na transformação de garrafas pet com potencial de poluição dos oceanos em fios de
+                    matéria-prima sustentável, na confecção do colchão liberty</p>
+                <div class="button-container">
+                    <a href="">Conheça nosso produto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slideTriggerLinks = document.querySelectorAll('.slide-trigger');
+
+            slideTriggerLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const lightBlueContainer = document.querySelector('.light-blue-container-one');
+                    const newElement = document.querySelector('.new-element-two');
+                    const container = document.querySelector('.container');
+                    lightBlueContainer.classList.add('slide-off');
+                    lightBlueContainer.addEventListener('transitionend', function () {
+                        lightBlueContainer.remove();
+                    });
+
+                    setTimeout(function () {
+                        newElement.style.display = 'block';
+                    }, 650);
+
+
+                    const newBackgroundImage = new Image();
+                    newBackgroundImage.src = "Question2-img.png";
+
+                    newBackgroundImage.onload = function () {
+                        container.style.transition = "background-image 0.5s ease";
+                        container.style.backgroundImage = `url(${newBackgroundImage.src})`;
+
+
+                        setTimeout(function () {
+                            newElement.classList.add('slide-in-right');
+                        }, 675);
+
+                    };
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slideTriggerLinksTwo = document.querySelectorAll('.slide-trigger-two');
+            slideTriggerLinksTwo.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const lightBlueContainerTwo = document.querySelector('.light-blue-container-two');
+                    const newElementThree = document.querySelector('.new-element-three');
+                    const container = document.querySelector('.container');
+                    lightBlueContainerTwo.classList.add('slide-off-two');
+                    lightBlueContainerTwo.addEventListener('transitionend', function () {
+                        lightBlueContainerTwo.remove();
+
+                    });
+
+                    setTimeout(function () {
+                        newElementThree.style.display = 'block';
+                    }, 650);
+
+
+                    const newBackgroundImage = new Image();
+                    newBackgroundImage.src = "Question3-img.png";
+
+                    newBackgroundImage.onload = function () {
+                        container.style.transition = "background-image 0.5s ease";
+                        container.style.backgroundImage = `url(${newBackgroundImage.src})`;
+
+                        setTimeout(function () {
+                            newElementThree.classList.add('slide-in-right-two');
+                        }, 675);
+                    };
+                });
+            });
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slideTriggerLinksThree = document.querySelectorAll('.slide-trigger-three');
+            slideTriggerLinksThree.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const lightBlueContainerThree = document.querySelector('.light-blue-container-three');
+                    const newElementFour = document.querySelector('.new-element-four');
+                    const container = document.querySelector('.container');
+                    lightBlueContainerThree.classList.add('slide-off-three');
+                    lightBlueContainerThree.addEventListener('transitionend', function () {
+                        lightBlueContainerThree.remove();
+
+                    });
+
+                    setTimeout(function () {
+                        newElementFour.style.display = 'block';
+                    }, 650);
+
+
+                    const newBackgroundImage = new Image();
+                    newBackgroundImage.src = "Question4-img.png";
+
+                    newBackgroundImage.onload = function () {
+                        container.style.transition = "background-image 0.5s ease";
+                        container.style.backgroundImage = `url(${newBackgroundImage.src})`;
+
+                        setTimeout(function () {
+                            newElementFour.classList.add('slide-in-right-three');
+                        }, 675);
+                    };
+                });
+            });
+        });
+
+    </script>
+    <script>
+        let goodCount = 0;
+        let badCount = 0;
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const goodButtons = document.querySelectorAll('.good');
+            const badButtons = document.querySelectorAll('.bad');
+            const finalButtons = document.querySelectorAll('.final');
+            const lightBlueContainerFour = document.querySelector('.light-blue-container-four');
+            const newElementGood = document.querySelector('.new-element-good');
+            const newElementBad = document.querySelector('.new-element-bad')
+            const container = document.querySelector('.container');
+
+            goodButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    goodCount++;
+                    updateCounts();
+                });
+            });
+
+            badButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    badCount++;
+                    updateCounts();
+                });
+            });
+
+            finalButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    if (badCount >= 2) {
+                        lightBlueContainerFour.classList.add('slide-off-bad');
+                        lightBlueContainerFour.addEventListener('transitionend', function () {
+                            lightBlueContainerFour.remove();
+                        });
+
+                        setTimeout(function () {
+                            newElementBad.style.display = 'flex';
+                        }, 650);
+
+                        const newBackgroundImage = new Image();
+                        newBackgroundImage.src = "BadResult-img.png";
+
+                        newBackgroundImage.onload = function () {
+                            container.style.transition = "background-image 0.5s ease";
+                            container.style.backgroundImage = `url(${newBackgroundImage.src})`;
+
+                            setTimeout(function () {
+                                newElementBad.classList.add('slide-in-right-bad');
+                            }, 675);
+                        };
+                    } else {
+                        lightBlueContainerFour.classList.add('slide-off-good');
+                        lightBlueContainerFour.addEventListener('transitionend', function () {
+                            lightBlueContainerFour.remove();
+                        });
+
+                        setTimeout(function () {
+                            newElementGood.style.display = 'flex';
+                        }, 650);
+
+                        const newBackgroundImage = new Image();
+                        newBackgroundImage.src = "GoodResult-img.png";
+
+                        newBackgroundImage.onload = function () {
+                            container.style.transition = "background-image 0.5s ease";
+                            container.style.backgroundImage = `url(${newBackgroundImage.src})`;
+
+                            setTimeout(function () {
+                                newElementGood.classList.add('slide-in-right-good');
+                            }, 675);
+                        };
+                    }
+                });
+            });
+        });
+
+        function updateCounts() {
+            console.clear();
+            console.log(`Good count: ${goodCount}`);
+            console.log(`Bad count: ${badCount}`);
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
