@@ -1,5 +1,5 @@
 # Ortobom-Quiz
-**To see the live deployment of this project please visit https://www.ortobom.com.br/oceancare/quiz**
+**To see the live deployment of this project's final iteration please visit https://www.ortobom.com.br/oceancare/quiz**
 
 Welcome to the Ortobom OceanCare Quiz project - an innovative step towards sustainability. In this README, I'll introduce you to Ortobom's commitment to comfort and the environment through OceanCare technology, and explain the purpose of the quiz I've developed for the Ortobom website.
 
