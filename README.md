@@ -1,6 +1,6 @@
 # Ortobom-Quiz
 
-Introduction:
+
 Welcome to the Ortobom OceanCare Quiz project - an innovative step towards sustainability. In this README, I'll introduce you to Ortobom's commitment to comfort and the environment through OceanCare technology, and explain the purpose of the quiz I've developed for the Ortobom website.
 
 Ortobom - Comfort Meets Responsibility:
