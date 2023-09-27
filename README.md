@@ -3,6 +3,9 @@
 
 Welcome to the Ortobom OceanCare Quiz project - an innovative step towards sustainability. In this README, I'll introduce you to Ortobom's commitment to comfort and the environment through OceanCare technology, and explain the purpose of the quiz I've developed for the Ortobom website.
 
+What is Ortobom?
+Ortobom is a mattress brand known for its commitment to both comfort and environmental sustainability. 
+
 Ortobom - Comfort Meets Responsibility:
 Ortobom isn't just about mattresses; it's about redefining the way we sleep responsibly. The brand believes that a restful night should also contribute to the planet's well-being. In collaboration with Repreve Our Ocean, Ortobom is making a meaningful impact.
 
