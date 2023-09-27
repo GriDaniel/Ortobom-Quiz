@@ -3,7 +3,7 @@
 
 **To see this project's advertisement efforts on youtube, please visit: https://www.youtube.com/watch?v=0dwoLnfqVQc&ab_channel=Colch%C3%B5esOrtobom**
 
-Welcome to the Ortobom OceanCare Quiz/Landing Page project - an innovative step towards sustainability. In this README, I'll introduce you to Ortobom's commitment to comfort and the environment through OceanCare technology, and explain the purpose of the quiz I've developed for the Ortobom website.
+Welcome to the Ortobom OceanCare Quiz/Landing Page project - an innovative step towards sustainability. In this README, I'll introduce you to Ortobom's commitment to comfort and the environment through OceanCare technology, and explain the purpose of the project I've developed for Ortobom.
 
 What is Ortobom?
 Ortobom is a mattress brand known for its commitment to both comfort and environmental sustainability. 
