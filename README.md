@@ -21,6 +21,6 @@ Engagement: Through interactive questions about sustainability, the quiz keeps u
 Advocacy for Sustainability: The quiz raises awareness and encourages users to consider their environmental impact, nudging them towards sustainable choices.
 
 How It Works:
-After completing the quiz, users gain a deeper understanding of Ortobom's commitment to environmental stewardship. The goal is to inspire them to take action towards a more sustainable future. Upon completion, users are redirected to the Ortobom website, where they can explore and purchase the Liberty mattress.
+After completing the quiz, users gain a deeper understanding of Ortobom's commitment to environmental stewardship. The goal is to inspire them to take action towards a more sustainable future. Upon completion, users are redirected to the Ortobom website, where they can explore and purchase a variety of mattress products.
 
 
